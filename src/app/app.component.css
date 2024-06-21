@@ -1,0 +1,86 @@
+/* Estilos generales */
+tbody {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #0857a7;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h3 {
+  color: #495057;
+}
+
+h1 {
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+hr {
+  border-top: 2px solid #dee2e6;
+  margin: 1.5rem 0;
+}
+
+/* Estilos para la tabla */
+.table {
+  width: 100%;
+  margin-bottom: 1.5rem;
+  background-color: #5309dd;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table th,
+.table td {
+  padding: 1rem;
+  vertical-align: middle;
+  border-top: 1px solid #dee2e6;
+}
+
+.table thead th {
+  background-color: #343a40;
+  color: #fff;
+  border-bottom: 2px solid #454d55;
+}
+
+.table tbody tr {
+  transition: background-color 0.3s;
+}
+
+.table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Estilos para la lista */
+.list-group {
+  margin-top: 1rem;
+  padding-left: 0;
+  list-style: none;
+}
+
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: 1rem 1.5rem;
+  margin-bottom: 0.5rem;
+  background-color: #71e4f8;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.list-group-item:hover {
+  background-color: #e9ecef;
+  transform: scale(1.02);
+}
